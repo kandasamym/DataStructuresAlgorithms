@@ -36,6 +36,7 @@ public class MinRangeKList {
 				minRange[1]=max;
 			}
 			
+			// insert next element from current min array
 			if(currMinIdx+1< arr[currMinArrIdx].length) {
 				max= insertHeapAndGetMax(arr, minHeap, currMinIdx+1, currMinArrIdx, max);
 			}
