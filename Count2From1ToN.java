@@ -1,6 +1,6 @@
 
 
-public class CountTwoFrom1ToN{
+public class Count2From1ToN{
     public static void main(String[] args){
         int n=102;
         System.out.println(countTwoBruteForce(n));
